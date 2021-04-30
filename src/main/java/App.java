@@ -1,8 +1,5 @@
 import mainscreen.Main;
 
-import java.io.PrintStream;
-import java.nio.charset.StandardCharsets;
-
 class App {
 
     public static void main(String[] args) {

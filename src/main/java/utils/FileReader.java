@@ -2,6 +2,7 @@ package utils;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
 import java.io.File;
 import java.util.Optional;
 
@@ -9,7 +10,7 @@ public class FileReader {
     private static final String EXTENSION = "xml";
     private final String fileName;
 
-    public FileReader(@Nullable String fileName)  {
+    public FileReader(@Nullable String fileName) {
         this.fileName = fileName;
     }
 
@@ -20,7 +21,7 @@ public class FileReader {
             if (extensionChek) {
                 resultFile = new File(fileName);
             } else {
-                System.out.println("Расширение отличное от xml");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ xml");
                 resultFile = null;
             }
         } else {
